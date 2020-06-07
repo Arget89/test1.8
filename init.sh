@@ -1,4 +1,5 @@
 #1. Переименовать и перенести внутренности из тест19 в box
+cd /home/box/
 mv test1.8/* .
 #2. Удалить default в nginx site-enabled и сделать своего конфига
 sudo rm /etc/nginx/sites-enabled/default
