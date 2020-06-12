@@ -1,0 +1,7 @@
+127.0.0.1 - - [12/Jun/2020:13:33:25 +0000] "GET /question/595 HTTP/1.1" 301 - "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0"
+127.0.0.1 - - [12/Jun/2020:13:33:25 +0000] "GET /question/595/ HTTP/1.1" 200 2 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0"
+127.0.0.1 - - [12/Jun/2020:13:33:26 +0000] "GET /favicon.ico HTTP/1.1" 404 2600 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0"
+127.0.0.1 - - [12/Jun/2020:13:35:18 +0000] "GET /question/595/ HTTP/1.0" 200 2 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0"
+127.0.0.1 - - [12/Jun/2020:13:35:19 +0000] "GET /favicon.ico HTTP/1.0" 404 2595 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0"
+127.0.0.1 - - [12/Jun/2020:13:43:10 +0000] "GET /question/595/4574 HTTP/1.0" 404 2662 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0"
+127.0.0.1 - - [12/Jun/2020:13:43:30 +0000] "GET /questi HTTP/1.0" 404 2580 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0"
