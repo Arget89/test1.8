@@ -11,6 +11,6 @@ sudo ln -s /home/box/web/etc/gunic2.conf.py /etc/gunicorn.d/
 sudo nginx
 Запуск gunicorn
 cd /home/box/web
-sudo gunicorn3 -c /etc/gunicorn.d/gunic.conf.py hello:app &
+sudo gunicorn -c /etc/gunicorn.d/gunic.conf.py hello:app &
 cd /home/box/web/ask/
-sudo gunicorn3 -c /etc/gunicorn.d/gunic2.conf.py ask.wsgi:application &
+sudo gunicorn -c /etc/gunicorn.d/gunic2.conf.py ask.wsgi:application &
