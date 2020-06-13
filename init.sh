@@ -11,6 +11,7 @@ sudo rm /etc/gunicorn.d/gunic2.conf.py
 sudo ln -s /home/box/web/etc/gunic.conf.py /etc/gunicorn.d/
 sudo ln -s /home/box/web/etc/gunic2.conf.py /etc/gunicorn.d/
 # Запуск nginx
+sudo nginx -s stop
 sudo nginx
 Запуск gunicorn
 cd /home/box/web
