@@ -11,9 +11,8 @@ sudo /etc/init.d/mysql start
 mysql -uroot -e "create database stepic_web;"
 mysql -uroot -e "grant all privileges on stepic_web.* to 'box'@'localhost' with grant option;"
 cd /web/ask/
-sudo python3 manage.py makemigrations
-cd /web/ask/
-sudo python3 manage.py migrate
+sudo python3 manage.py makemigrations qa
+sudo python3 manage.py migrate qa
 
 
 #1. Переименовать и перенести внутренности из тест19 в box
